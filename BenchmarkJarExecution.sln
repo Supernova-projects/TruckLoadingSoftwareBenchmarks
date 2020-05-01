@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortedSolver", "src\PortedSolver\PortedSolver.csproj", "{581454CD-FCA4-448F-A94C-6736D79A9312}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkJarExecution", "src\BenchmarkExecution\BenchmarkJarExecution.csproj", "{16BC9C69-338C-452D-86D9-05642038076A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "meta", "meta", "{6DD59A73-18FA-4820-BCE2-97FC3F1C73E7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{581454CD-FCA4-448F-A94C-6736D79A9312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581454CD-FCA4-448F-A94C-6736D79A9312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581454CD-FCA4-448F-A94C-6736D79A9312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581454CD-FCA4-448F-A94C-6736D79A9312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BC9C69-338C-452D-86D9-05642038076A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BC9C69-338C-452D-86D9-05642038076A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BC9C69-338C-452D-86D9-05642038076A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BC9C69-338C-452D-86D9-05642038076A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2848A512-5C5E-4F15-8D65-798EF6C531A3}
+	EndGlobalSection
+EndGlobal
