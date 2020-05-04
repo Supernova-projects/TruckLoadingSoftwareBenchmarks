@@ -67,6 +67,7 @@ However, there's a skew in the Java statistics here. It appears that the Java VM
 #### Cons
 - A fair amount of effort in order to optimize performance.
 - Additional development time needed in order to "translate" the Java codebase.
+- A mechanism to test the output of both solutions would need to be implemented, in order to ensure the correct execution of the C# port.
 
 ### Java Pros and cons
 #### Pros
@@ -79,4 +80,4 @@ However, there's a skew in the Java statistics here. It appears that the Java VM
 - Unfamiliar technology for the team.
 
 # Final assesment
-In my opinion, the C# pros outweigh the cons significantly. We can improve performance impactfully when we remove the CSV parsing mechanism, even though further performance optimizations would be much less obvious and difficulty to implement. I would advise that we proceed with integrating the final version of the algorithm into the C# back-end codebase, rather than call it as a separate black-box.
+In my opinion, the C# pros outweigh the cons significantly. We can improve performance impactfully when we remove the CSV parsing mechanism, even though further performance optimizations would be much less obvious and difficulty to implement. I would advise that we proceed with integrating the final version of the algorithm into the C# back-end codebase, rather than call it as a separate black-box. In order to ensure the correct operation of the ported version, however, we would need to be able to test the output of each algorithm implementation against one another. Since the current implementation heavily depends on data randomization, I suggest implementing a configuration flag that disables the randomization of the data, which we could then use to create reproducible and predictible outputs from both algorithm and test the C# version against the Java version for correctness.
